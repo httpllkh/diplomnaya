@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,500&display=swap');
+
+html {  
+    scroll-behavior: smooth;
+}
+
+.scroll_up {
+    height: 48px; 
+    width: 48px; 
+    border-radius: 30px;
+    background-color:rgb(76, 76, 76);
+    position: fixed;
+    top: 85%;
+    left:90%;
+}
+
+#scroll_up {
+    position: relative;
+    top: 7px;
+    left: 8px;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    background-color: rgb(46, 46, 46);
+
+
+}
+
+.body {
+    padding: 0px 7% 0px;
+}
+
+
+h1 {
+    color: rgb(207 122 27);
+    text-align: center;
+}
+
+h3 {
+    color: rgb(185 150 0);
+}
+h2 {color:rgb(207 122 27);}
+p {
+    color: rgb(200, 200, 200);
+    font-size: large;
+    width: 95%;
+}
+
+
+.top-menu {
+    padding: 10px 15px 10px;
+    font-size: larger;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: 10px;
+}
+
+.top-menu:hover  {
+    color:rgb(207 122 27);
+}
+
+.menu {
+    width: 86%;
+    height: 45px;
+    background-color: rgb(83 81 79);
+    margin-bottom: 3px;
+    position: fixed;
+    text-align: center;
+    top: 0px;
+
+}
+
+
+.kostil {
+    height: 45px;
+}
+
+.list {
+    color: rgb(170, 170, 170);
+    width: 65%;
+    font-size: large;
+}
+
+#profitable_solution {
+    width: 85%;
+}
+
+.border_p {
+    border-left: 7px solid;
+    border-color:rgb(207 122 27);
+    padding-left: 10px;
+    width: 85%;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.form_connection {
+    display:flex;
+    flex-wrap: nowrap;
+    margin-bottom: 3%;
+}
+
+.text_connection {
+    width: 40%;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid rgb(207 122 27);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: rgb(60 60 60);
+    color:rgb(200, 200, 200);
+}
+
+input[type=submit] {
+    background-color: rgb(60 60 60);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(207 122 27);
+}
+
+.container {
+    border-radius: 10px;
+    background-color: rgb(100 100 100);
+    padding: 20px;
+    width: 40%;
+}
+
+
+footer {
+    margin: 0 auto;
+    height: 500px;
+    background-color:rgb(26, 26, 26);
+}
+
+.foot {
+    
+    text-align: center;
+    position: relative;
+    top: 150px;
+
+}
+
+.foot_h2 {
+    color: rgb(200 200 200);
+}
